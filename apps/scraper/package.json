@@ -13,5 +13,8 @@
   "type": "module",
   "dependencies": {
     "playwright": "^1.58.2"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*"
   }
 }

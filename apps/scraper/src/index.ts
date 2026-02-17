@@ -16,16 +16,16 @@ page.on("console", (msg) => {
   console.log("[BROWSER]", msg.text());
 });
 
-// const result = await scrapeNgefilmVideoUrl(
-//   page,
-//   "https://new31.ngefilm.site/predator-badlands-2025/?player=2",
-// );
+const result = await scrapeNgefilmVideoUrl(
+  page,
+  "https://new31.ngefilm.site/predator-badlands-2025/?player=4",
+);
 // const result = await scrapeNgefilmIndex(page);
 
-const result = await scrapeServerNgefilmVideoUrl(
-  page,
-  "https://new31.ngefilm.site/predator-badlands-2025",
-);
+// const result = await scrapeServerNgefilmVideoUrl(
+//   page,
+//   "https://new31.ngefilm.site/predator-badlands-2025",
+// );
 
 console.log("Scrape Result: ", result);
 
