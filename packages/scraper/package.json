@@ -1,0 +1,20 @@
+{
+  "name": "@repo/scraper",
+  "version": "1.0.0",
+  "author": "",
+  "main": "index.ts",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*"
+  }
+}
